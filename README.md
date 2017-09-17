@@ -11,4 +11,4 @@ Will be able to learn how HTML is used to define the content of a web page and s
 * [Udacity Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/)
 
 ## Demo
-You can see demo [here].
+You can see demo [here](http://htmlpreview.github.io/?https://github.com/DongleLeaf/Build-a-Portfolio-Site/blob/master/index.html).
