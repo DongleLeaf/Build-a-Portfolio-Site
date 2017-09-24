@@ -1,7 +1,7 @@
 /* TODO: add some buttons for portfolio page */
 body {
     font: 300 Raleway, sans-serif;
-    color: #9E8B7A;
+    color: #9e8b7a;
 }
 
 .img-responsive {
@@ -12,6 +12,8 @@ body {
 
 .logo-image {
     position: absolute;
+    z-index: 10;
+    left: 30px;
     width: 150px;
     height: 60px;
 }
@@ -35,7 +37,7 @@ body {
 }
 
 .page-sub-title {
-    font: 2.5vw 'Libre Barcode 39 Text', cursive;
+    font: 2.5vw "Libre Barcode 39 Text", cursive;
 }
 
 @media screen and (min-width: 1500px) and (max-width: 1799px) {
@@ -64,9 +66,13 @@ body {
 
 @media screen and (max-width: 480px) {
     .title-text {
-       transform: translateY(-100%);
+       transform: translateY(-120%);
     }   
     .page-sub-title {
-       display: none;
+       transform: translateY(-150%);
+    }
+    .logo-image {
+        width: 75px;
+        height: 30px;
     }
 }
